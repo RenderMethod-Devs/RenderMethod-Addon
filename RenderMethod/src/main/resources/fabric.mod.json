@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "render-swap",
+  "version": "${version}",
+  "name": "Render method",
+  "description": "Meteor addon: keybind to instantly drop (and restore) your render distance.",
+  "authors": ["Render Method Developers"],
+  "icon": "assets/renderswap/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.renderswap.addon.RenderSwapAddon"]
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "${mc_version}",
+    "meteor-client": "*"
+  },
+  "custom": {
+    "meteor-client:color": "0,255,255"
+  }
+}
